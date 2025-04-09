@@ -12,5 +12,5 @@ This repository serves as a demonstration of GitHub Actions workflows. It showca
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/nodoubtz/.github-workflows-github-actions-demo.yml.git
+   git clone https://github.com/nodoubtz/.github-workflows-github-actions-demo.git
    cd .github-workflows-github-actions-demo.yml
