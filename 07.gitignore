@@ -1,0 +1,75 @@
+# Ignore sensitive information and vulnerabilities
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+
+# Secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.cer
+*.der
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build directories
+dist/
+build/
+tmp/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore backup files
+*.bak
+
+# Ignore generated files
+*.min.js
+*.map
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore private config files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore personal settings
+.vscode/
+*.code-workspace
