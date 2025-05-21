@@ -1,0 +1,47 @@
+# Ignore sensitive information
+*.env
+*.pem
+*.key
+*.crt
+*.p12
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore build files
+/build/
+/dist/
+/out/
+/target/
+
+# Ignore dependency directories
+/node_modules/
+/vendor/
+/.venv/
+
+# Ignore IDE/editor specific files
+/.idea/
+/.vscode/
+/*.iml
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Ignore security reports
+security-audit.log
